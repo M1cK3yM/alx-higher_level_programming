@@ -1,10 +1,17 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+"""
+Module: 0-lookup
+Find returns the list of available attributes and methods of an object
+"""
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
+    """
+    Function that returns the list of available attributes and methods of an object
+    
+    Args: 
+        - obj is the object to look into
+    """
+
     return dir(obj)
+
